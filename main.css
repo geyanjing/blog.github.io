@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header{
+    background-image: url("./img/header-img.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.3);
+    height: 500px;
+    padding: 0 1rem;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color:rgb(71, 122, 50);
+}
+nav a{
+    padding: 5px 1rem;
+    cursor: pointer;
+}
+nav a:hover{
+    font-weight: 700;
+}
+nav a.active{
+    padding: 5px calc(1rem - 1px);
+    border: 1px solid rgb(71, 122, 50);
+    font-weight: 700;
+}
+.header-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 53px);
+    color: white;
+}
+.header-title h1{
+    font-size: 4rem;
+}
+.header-title p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.header-title div{
+    width: 50px;
+    height: 3px;
+    background-color:rgb(71, 122, 50) ;
+
+}
