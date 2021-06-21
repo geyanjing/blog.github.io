@@ -1,0 +1,20 @@
+const blog =[
+    {
+        id:1,
+        title:"这是我的第一篇博客",
+        href:'https://baidu.com/',
+        image:"../img/blog1-img.jpg"    
+    },
+    {
+        id:2,
+        title:"这是我的第二篇博客",
+        href:'https://map.baidu.com/',
+        image:"../img/blog2-img.jpg"    
+    },
+    {
+        id:3,
+        title:"这是我的第三篇博客",
+        href:'https://tieba.baidu.com/',
+        image:"../img/blog3-img.jpg"    
+    },
+]
